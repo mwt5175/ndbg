@@ -36,6 +36,7 @@ unsigned int listSize (list* root);
 
 extern
 listNode* listRemoveElement (unsigned int num,list* root);
+
 extern
 void listFreeAll (list* root);
 
