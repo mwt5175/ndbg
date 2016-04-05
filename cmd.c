@@ -140,7 +140,6 @@ BOOL DbgConsoleSetBreakpoint (IN int argc, IN char** argv) {
 	address = (vaddr_t) strtol (argv[1], 0, 10);	
 	if (!address)
 		address = (vaddr_t) strtol (argv[1], 0, 16);	
-
 	return DbgSetBreakpoint (DbgGetCurrentSession(), address, DBG_BREAK_SOFT);
 }
 
