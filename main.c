@@ -10,7 +10,6 @@
 */
 
 #define _CRTDBG_MAP_ALLOC
-
 #ifdef _MSC_VER
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
