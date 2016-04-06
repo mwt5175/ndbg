@@ -252,6 +252,5 @@ int DbgConsoleEntry (void) {
 	}
 
 	DbgSessionSendEvent (DbgGetCurrentSession(),DBG_SESSION_QUIT, DBG_SOURCE_COMMAND);
-
 	return EXIT_SUCCESS;
 }
