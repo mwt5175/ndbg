@@ -50,7 +50,6 @@ typedef int BOOL;
 #define FALSE 0
 #endif
 #endif
-
 #define IN
 #define OUT
 #define OPT
