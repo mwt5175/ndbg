@@ -79,6 +79,7 @@ BOOL DbgSetBreakpoint (IN dbgSession* session, IN vaddr_t address, dbgBreakpoing
 }
 
 BOOL DbgGetBreakpoint (IN dbgSession* session, IN vaddr_t address, OUT dbgBreakpoint* out) {
+
 	listNode*      current;
 	size_t         c;
 
