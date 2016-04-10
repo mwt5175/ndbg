@@ -11,5 +11,4 @@
 #include "defs.h"
 
 extern BOOL DbgOpenSourceFile ();
-
 extern BOOL DbgGetSourceLineList ();
