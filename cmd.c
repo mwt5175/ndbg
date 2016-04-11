@@ -78,6 +78,7 @@ int DbgConsoleClear (IN int argc, IN char* argv[]) {
 }
 
 int DbgConsoleHelp (IN int argc, IN char** argv) {
+
 	int c=0;
 	printf (NDBG_PRODUCT" "NDBG_VERSION"\n"NDBG_COPY" "NDBG_VENDER);
 	printf ("\n\nThe "NDBG_PRODUCT" is a kernel and user mode debugger for the Neptune Software Suite.");
