@@ -66,6 +66,7 @@ NDBG_API size_t NDBG_CALL DbgConsoleGetArgs (IN char* line, IN char** argv, IN s
 }
 
 NDBG_API int NDBG_CALL DbgConsoleDefault (IN int argc, IN char* argv[]) {
+
 	if (argc > 0) {
 		printf ("\nUnknown command '%s', ignored.", argv[0]);
 	}
@@ -73,6 +74,7 @@ NDBG_API int NDBG_CALL DbgConsoleDefault (IN int argc, IN char* argv[]) {
 }
 
 int DbgConsoleClear (IN int argc, IN char* argv[]) {
+
 	system ("cls");
 	return 0;
 }
