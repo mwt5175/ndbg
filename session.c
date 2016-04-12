@@ -29,7 +29,9 @@ INLINE dbgPtid* DbgSessionGetPtid (dbgSession* session) {
 }
 
 void DbgRegisterEventProc (dbgSession* session, DbgSessionEventProc proc) {
+
 	if (session) {
+
 //		DbgMutexLock (&session->mutex);
 		session->proc = proc;
 //		DbgMutexUnlock (&session->mutex);
