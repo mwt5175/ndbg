@@ -18,6 +18,7 @@
 	use the provided system library to parse it.
 */
 #pragma comment(lib, "dbghelp.lib")
+
 /* note: without this we will get name conflict with handle_t */
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
